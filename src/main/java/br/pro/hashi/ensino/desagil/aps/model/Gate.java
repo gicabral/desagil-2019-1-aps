@@ -11,6 +11,7 @@ public abstract class Gate implements SignalEmitter, SignalReceiver {
         this.outputSize = outputSize;
     }
 
+
     public String toString() {
         return name;
     }
@@ -19,7 +20,5 @@ public abstract class Gate implements SignalEmitter, SignalReceiver {
         return inputSize;
     }
 
-    public int getOutputSize() {
-        return outputSize;
-    }
+    public int getOutputSize() { return outputSize; }
 }
